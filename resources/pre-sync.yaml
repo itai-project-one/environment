@@ -13,6 +13,7 @@ spec:
           image: curlimages/curl
           command:
             - "curl"
+            - "--help"
 #          command:
 #            - "curl"
 #            - "--fail-with-body"
