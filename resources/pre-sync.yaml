@@ -25,4 +25,4 @@ spec:
             - "app=demo&owner=itai-project-one&repo=environment"
             - "https://37f4-2a0d-6fc2-66d2-e000-e9-b7fd-9593-7676.eu.ngrok.io/operations/validate?repo=itai-project-one/environment"
       restartPolicy: Never
-  backoffLimit: 2
+  backoffLimit: 0
