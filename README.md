@@ -1,10 +1,1 @@
 # demo app gitops repo
-
-
-
-
-
-
-
-
-
