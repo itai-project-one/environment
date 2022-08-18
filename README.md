@@ -1,4 +1,2 @@
 # demo app gitops repo
 
-
-
