@@ -8,7 +8,7 @@ metadata:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-  - host: canary.localdev.me
+  - host: itai.localdev.me
     http:
       paths:
       - path: /
