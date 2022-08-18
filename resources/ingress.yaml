@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: canary-demo
+  name: app
   annotations:
     ingress.kubernetes.io/proxy-body-size: 100M
     ingress.kubernetes.io/app-root: /
@@ -15,6 +15,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: canary-demo
+            name: app
             port:
               number: 80
